@@ -1,4 +1,1 @@
-bert_source_code/*
-bert_source_code/distilbert_fraud_detection/*
-qwen_source_code/*
-qwen_source_code/distilbert_fraud_detection/*
+bert_source_code/__pycache__/*
