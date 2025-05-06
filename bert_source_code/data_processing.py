@@ -6,7 +6,8 @@ from config import DATA_PATH
 
 def load_and_process_data():
     try:
-        df = pd.read_csv(DATA_PATH)
+        df = pd.read_csv('dataset.csv')
+        print("CSV loaded successfully.")
     except FileNotFoundError:
         print("CSV not found, generating sample data...")
         data = {
